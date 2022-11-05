@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>Convertio</nav>
+
+    <h1>One place to check value of any currency in terms of other currency</h1>
+
+    <form>
+      <div>
+        <label for="from">From</label>
+        <select name="from" id="currency_from" required>
+          <option>Choose One Currency</option>
+          <option>USD</option>
+          <option>CNY</option>
+          <option>INR</option>
+          <option>RUB</option>
+          <option>JPY</option>
+          <option>PKR</option>
+          <option>EUR</option>
+          <option>EGP</option>
+          <option>GBP</option>
+          <option>LKR</option>
+          <option>NZD</option>
+          <option>SAR</option>
+          <option>SGD</option>
+          <option>BTC</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="to">To</label>
+        <select name="to" id="currency_to" required>
+          <option>Choose One Currency</option>
+          <option>USD</option>
+          <option>CNY</option>
+          <option>INR</option>
+          <option>RUB</option>
+          <option>JPY</option>
+          <option>PKR</option>
+          <option>EUR</option>
+          <option>EGP</option>
+          <option>GBP</option>
+          <option>LKR</option>
+          <option>NZD</option>
+          <option>SAR</option>
+          <option>SGD</option>
+          <option>BTC</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="amount">Amount</label>
+        <input name="amount" type="number" placeholder="Enter Amount" min="0"/>
+      </div>
+      <input type="submit" />
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
