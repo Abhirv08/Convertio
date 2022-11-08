@@ -15,25 +15,25 @@
 
     <h1>One place to check value of any currency in terms of other currency</h1>
 
-    <form>
+    <form id="form-submission">
       <div>
         <label for="from">From</label>
         <select name="from" id="currency_from" required>
           <option>Choose Currency</option>
-          <option>USD</option>
-          <option>CNY</option>
-          <option>INR</option>
-          <option>RUB</option>
-          <option>JPY</option>
-          <option>PKR</option>
-          <option>EUR</option>
-          <option>EGP</option>
-          <option>GBP</option>
-          <option>LKR</option>
-          <option>NZD</option>
-          <option>SAR</option>
-          <option>SGD</option>
-          <option>BTC</option>
+          <option value="USD">USD</option>
+          <option value="CNY">CNY</option>
+          <option value="INR">INR</option>
+          <option value="RUB">RUB</option>
+          <option value="JPY">JPY</option>
+          <option value="PKR">PKR</option>
+          <option value="EUR">EUR</option>
+          <option value="EGP">EGP</option>
+          <option value="GBP">GBP</option>
+          <option value="LKR">LKR</option>
+          <option value="NZD">NZD</option>
+          <option value="SAR">SAR</option>
+          <option value="SGD">SGD</option>
+          <option value="BTC">BTC</option>
         </select>
       </div>
 
@@ -41,26 +41,26 @@
         <label for="to">To</label>
         <select name="to" id="currency_to" required>
           <option>Choose Currency</option>
-          <option>USD</option>
-          <option>CNY</option>
-          <option>INR</option>
-          <option>RUB</option>
-          <option>JPY</option>
-          <option>PKR</option>
-          <option>EUR</option>
-          <option>EGP</option>
-          <option>GBP</option>
-          <option>LKR</option>
-          <option>NZD</option>
-          <option>SAR</option>
-          <option>SGD</option>
-          <option>BTC</option>
+          <option value="USD">USD</option>
+          <option value="CNY">CNY</option>
+          <option value="INR">INR</option>
+          <option value="RUB">RUB</option>
+          <option value="JPY">JPY</option>
+          <option value="PKR">PKR</option>
+          <option value="EUR">EUR</option>
+          <option value="EGP">EGP</option>
+          <option value="GBP">GBP</option>
+          <option value="LKR">LKR</option>
+          <option value="NZD">NZD</option>
+          <option value="SAR">SAR</option>
+          <option value="SGD">SGD</option>
+          <option value="BTC">BTC</option>
         </select>
       </div>
 
       <div>
         <label for="amount">Amount</label>
-        <input name="amount" type="number" placeholder="Enter Amount" min="0"/>
+        <input name="amount" id="amount" type="number" placeholder="Enter Amount" min="0"/>
       </div>
       <input type="submit" />
     </form>

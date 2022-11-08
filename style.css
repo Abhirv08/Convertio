@@ -3,7 +3,7 @@ body{
     padding: 0px;
 }
 
-body::before{
+/* body::before{
     content: "";
     display: block;
     opacity: 0.8;
@@ -16,8 +16,8 @@ body::before{
     background-position-y: 30%;
     background-size: cover;
     background-blend-mode: luminosity;
-    z-index: -1;
-}
+    z-index: -1; 
+} */
 
 nav{
     background-color: aqua;
@@ -42,6 +42,7 @@ body form{
     color: white;
     display: flex;
     flex-direction: column;
+    color: black;
 }
 
 body form div{
@@ -71,9 +72,10 @@ body form div select option{
 
 body form div input{
     height: 2rem;
-    width: 58%;
+    width: 57%;
     border-radius: 5px;
-    outline: none;
+    outline: none;    
+    padding-left: 0.4rem;
 }
 
 body form input[type = submit]{
