@@ -1,8 +1,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    
-    
 }
 
 body::before{
@@ -39,9 +37,11 @@ h1{
 
 body form{
     margin: auto;
-    width: fit-content;
+    width: 30%;
     padding: 1rem;;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 body form div{
@@ -57,3 +57,43 @@ body form div input[type = number]{
     -moz-appearance: textfield;
     -webkit-appearance: none;
 }
+
+body form div select{
+    height: 2rem;
+    width: 60%;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+body form div select option{
+    margin: 0.1rem 0;
+}
+
+body form div input{
+    height: 2rem;
+    width: 58%;
+    border-radius: 5px;
+    outline: none;
+}
+
+body form input[type = submit]{
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: #4bc473;
+    color: white;
+    width: 70%;
+    align-self: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+body form input[type = submit]:hover {
+    background-color: #49b36c;
+}
+
+body form div label{
+    font-weight: bold;
+}
+

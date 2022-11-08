@@ -1,5 +1,3 @@
-// Api Key = 6Hv8YF2p10IKrYMB87WmJMaZdJoNlUf2
-
 var myHeaders = new Headers();
 myHeaders.append("apikey", "6Hv8YF2p10IKrYMB87WmJMaZdJoNlUf2");
 
