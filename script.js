@@ -19,8 +19,11 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             fetch(`https://api.apilayer.com/currency_data/convert?to=${to_value}&from=${from_value}&amount=${amount}`, requestOptions)
-                .then(response => response.text())
-                .then(result => console.log(result))
+                .then(response => response.json())
+                .then(data => {
+                    let {success, query, info, result} = data;
+                    document.getElementById("output").innerHTML = `${amount} ${from_value} = ${result} ${to_value}`;
+                });
 
 
         } else if (amount === 0) {
